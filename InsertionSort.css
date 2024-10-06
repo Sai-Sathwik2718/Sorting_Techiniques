@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(208, 220, 208);
+}
+h1{
+    
+    text-align:center;
+    text-decoration:underline;
+    color:rgb(10, 50, 10);
+    font-family:Lucida Sans;
+    border-width:4px;
+    border-style:dashed;
+    border-radius:20px;
+    background-color: pink;
+}
+h2{
+    color:rgb(177, 183, 17);
+    font-family:Lucida Sans;
+}
+.container{
+    font-size: larger;
+
+}
+h3,h4{
+    color:rgb(10, 50, 10);
+    font-family:Lucida Sans;
+}
+.combine{
+    text-align: center;
+}
+p{
+    font-size: larger;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Sort Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Count Sort Evaluator!</h1>
+        <h2>***Performs Sorting using Counting Sort Algorithm.***</h2>
+    </div>
+        <p>This sorting technique doesn't perform sorting by comparing elements. It performs sorting by 
+            counting objects having distinct key values like hashing. After that, it performs some 
+            arithmetic operations to calculate each object's index position in the output sequence. 
+            Counting sort is not used as a general-purpose sorting algorithm.
+            Counting sort is effective when range is not greater than number of objects to be sorted. It can 
+            be used to sort the negative input values.
+            </p>
+        
+        <p>Now let us evaluate this technique by taking a list of elements which sorts step wise.</p>
+        <hr>
+        <div class="combine">
+            <label for="arrayInput"><h4>Enter an array of numbers:</h4></label>
+            <input type="text" id="arrayInput" placeholder="e.g., 3,1,4,5,6,2,0" />
+            <button onclick="performCountingSort()">Sort</button>
+            <h3>Steps:</h3>
+            <div id="steps"></div>
+            <h3>Sorted array:</h3>
+            <p id="result"></p>
+    
+    </div>
+
+        
+
+   
+    <script src="styles.js"></script>
+</body>
+</html>

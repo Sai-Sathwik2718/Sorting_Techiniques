@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion Sort Page</title>
+    <link rel="stylesheet" href="InsertionSort.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+        <h1>Welcome to Insertion Sort Evaluator!</h1>
+        <h2>***Performs Sorting using Insertion Sort Algorithm.***</h2>
+        <p>
+            In each pass first element in unsorted list is inserted in sorted list at an 
+            appropriate position. n-1 number of passes are required.</p>
+            <p>Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.
+            It is efficient for small data sets and works well for data that is already partially sorted.
+        </p>
+        <hr>
+        <div class="container">
+            <label for="arrayInput">Enter an array of elements (comma-separated):</label>
+            </div>
+            <div class="combine">
+            <input type="text" id="arrayInput" placeholder="e.g., 3,1,4,1,5,9,2,6,5">
+    
+
+        <button onclick="performInsertionSort()">Sort</button>
+        <h3>Intermediate States:</h3>
+        <div id="steps"></div>
+        <h3>Sorted array:</h3>
+        <p id="result"></p>
+    </div>
+
+    <script src="InsertionSort.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

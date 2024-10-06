@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort in JavaScript</title>
+    <link rel="stylesheet" href="BubbleSort.css"> 
+</head>
+<body>
+    <h1>Bubble Sort Evaluator.</h1>
+    <p>Bubble Sort is one of the simplest sorting algorithms used to arrange the elements of an array in either ascending or descending order. It’s often referred to as the simplest sorting algorithm due to its easy-to-understand logic.</p>
+    <p>Bubble Sort: In each pass every two adjacent elements are compared and swapped if 
+        they not in correct order. If there are n elements n-1 number of passes are required to 
+        sort all the elements.
+    </p>
+    <p>Now let us evaluate this technique by taking a list of elements.</p>
+    <hr>
+    <div class="container">
+    <label for="arrayInput">Enter an array of elements (comma-separated):</label>
+    </div>
+    <div class="combine">
+    <input type="text" id="arrayInput" placeholder="e.g., 3,1,4,1,5,9,2,6,5">
+
+    <button onclick="performBubbleSort()">Sort</button>
+    <h3>Intermediate States:</h3>
+    <div id="steps"></div>
+    
+    <h3>Sorted Array:</h3>
+    <p id="result"></p>
+    </div>
+    <script src="BubbleSort.js"></script> 
+</body>
+</html>

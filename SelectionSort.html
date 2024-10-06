@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Sort Page</title>
+    <link rel="stylesheet" href="SelectionSort.css">
+</head>
+<body>
+    <h1>Selection Sort Visualization</h1>
+    <p>In each pass, the smallest element in the unsorted list is selected and swapped with the first element in the unsorted list.</p>
+    <p>Selection sort is a simple comparison-based sorting algorithm that divides the input list into two parts: the sorted and the unsorted sublist. It repeatedly selects the smallest (or largest, depending on sorting order) element from the unsorted part and swaps it with the leftmost unsorted element, moving the boundary between sorted and unsorted one element to the right.</p>
+    <hr>
+    <div class="container">
+        <label for="arrayInput">Enter an array of elements (comma-separated):</label>
+    </div>
+    <div class="combine">
+        <input type="text" id="arrayInput" placeholder="e.g., 3,1,4,1,5,9,2,6,5">
+        <button onclick="performSelectionSort()">Sort</button>
+        <h3>Intermediate Steps:</h3>
+    <div id="steps"></div>
+
+    <h3>Sorted Array:</h3>
+    <p id="result"></p>
+    </div>
+    
+
+    <!-- Link to your JavaScript file -->
+    <script src="SelectionSort.js"></script>
+</body>
+</html>
