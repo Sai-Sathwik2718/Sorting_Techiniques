@@ -84,6 +84,6 @@ Future Enhancements
 
 Contributions:
 1.Lalitya
-2.Jaya Surya
+2.JayaSurya
 3.Sai Kiran
 
